@@ -1,1 +1,40 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>热门评论</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .comment {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>热门评论</h1>
+    <div id="comments"></div>
+
+    <script>
+        // 示例：从本地数据加载评论
+        const comments = [
+            { name: "用户A", content: "这是一个很棒的网站！" },
+            { name: "用户B", content: "非常有帮助，感谢分享！" }
+        ];
+
+        const commentsContainer = document.getElementById("comments");
+
+        comments.forEach(comment => {
+            const commentDiv = document.createElement("div");
+            commentDiv.className = "comment";
+            commentDiv.innerHTML = `<strong>${comment.name}</strong>: ${comment.content}`;
+            commentsContainer.appendChild(commentDiv);
+        });
+    </script>
+</body>
+</html>
