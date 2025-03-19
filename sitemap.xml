@@ -6,21 +6,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2025-03-19T21:28:34-00:00</lastmod>
+<lastmod>2025-03-19T21:34:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/author/shenpinglun.html</loc>
-<lastmod>2025-03-19T21:28:34-00:00</lastmod>
+<lastmod>2025-03-19T21:34:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/category/shen-ping-lun.html</loc>
-<lastmod>2025-03-19T21:28:34-00:00</lastmod>
+<lastmod>2025-03-19T21:34:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -42,6 +42,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/shen-ping-lun-3.html</loc>
 <lastmod>2025-03-19T21:28:34+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/shen-ping-lun-4.html</loc>
+<lastmod>2025-03-19T21:34:08+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
